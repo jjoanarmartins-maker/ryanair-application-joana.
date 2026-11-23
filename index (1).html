@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Joana Martins · Ryanair Graduate Programme 2027</title>
+<style>
+:root{--bg:#e6efff;--card:#fff;--ink:#10213f;--muted:#4a5a78;--navy:#0b2a6b;--navy-ink:#fff;--yellow:#f5c400;--line:#c3d1ee;--stamp:#c8302a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1530;--card:#13224a;--ink:#eaf0ff;--muted:#a9b8da;--navy:#f5c400;--navy-ink:#0b2a6b;--yellow:#f5c400;--line:#2c3f73;--stamp:#ff7a70}}
+:root[data-theme="dark"]{--bg:#0a1530;--card:#13224a;--ink:#eaf0ff;--muted:#a9b8da;--navy:#f5c400;--navy-ink:#0b2a6b;--yellow:#f5c400;--line:#2c3f73;--stamp:#ff7a70}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 Georgia,"Times New Roman",serif}
+main{max-width:720px;margin:0 auto;padding:28px 20px 64px}
+h1,h2,.f{font-family:"Avenir Next","Segoe UI",Helvetica,Arial,sans-serif}
+h1{font-size:clamp(2rem,7vw,3.1rem);line-height:1.08;margin:28px 0 12px;font-weight:800;letter-spacing:-.02em}
+h2{font-size:1.5rem;margin:48px 0 10px;font-weight:800}
+p{margin:0 0 16px;max-width:62ch}
+.lead{font-size:1.2rem;color:var(--muted)}
+.pass{background:var(--card);border-radius:18px;overflow:hidden;border:1px solid var(--line);position:relative}
+.pass-top{background:var(--navy);color:var(--navy-ink);padding:14px 22px;display:flex;justify-content:space-between;gap:12px;font-weight:700}
+.pass-top span:last-child{background:var(--yellow);color:#0b2a6b;border-radius:99px;padding:0 12px;font-size:.9rem;line-height:1.8}
+.route{display:flex;align-items:center;gap:10px;padding:20px 22px 6px}
+.route div{flex:1}.route .code{font-size:2.4rem;font-weight:800;line-height:1}
+.route .city{color:var(--muted);font-size:.9rem}
+.route .plane{flex:0 0 auto;font-size:1.6rem;color:var(--muted)}
+.route div:last-child{text-align:right}
+.perf{border-top:2px dashed var(--line);margin:14px 0 0;position:relative}
+.perf::before,.perf::after{content:"";position:absolute;top:-11px;width:20px;height:20px;border-radius:50%;background:var(--bg)}
+.perf::before{left:-10px}.perf::after{right:-10px}
+.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px 18px;padding:18px 22px 22px}
+.fields small{display:block;color:var(--muted);font-size:.8rem}
+.fields b{font-family:"Avenir Next","Segoe UI",Helvetica,Arial,sans-serif;font-size:1.05rem}
+.stamp{position:absolute;right:16px;bottom:62px;border:3px solid var(--stamp);color:var(--stamp);border-radius:10px;padding:2px 12px;font:800 1rem "Avenir Next","Segoe UI",Arial,sans-serif;transform:rotate(-9deg);opacity:0;animation:stamp .5s .6s cubic-bezier(.2,1.6,.4,1) forwards;background:var(--card)}
+@keyframes stamp{from{opacity:0;transform:rotate(-9deg) scale(2.2)}to{opacity:1;transform:rotate(-9deg) scale(1)}}
+@media (prefers-reduced-motion:reduce){.stamp{animation:none;opacity:1}}
+.quote{border-left:5px solid var(--yellow);padding:4px 0 4px 18px;margin:24px 0;font-size:1.25rem}
+.checks{list-style:none;padding:0;margin:16px 0}
+.checks li{display:grid;grid-template-columns:28px 1fr;gap:4px 10px;padding:14px 0;border-bottom:1px solid var(--line)}
+.checks li::before{content:"✓";font-family:Arial,sans-serif;font-weight:800;background:var(--yellow);color:#0b2a6b;border-radius:50%;width:24px;height:24px;display:grid;place-items:center;font-size:.85rem;margin-top:3px}
+.checks strong{font-family:"Avenir Next","Segoe UI",Helvetica,Arial,sans-serif;display:block}
+.checks span{color:var(--muted);font-size:1rem}
+.depts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:16px 0}
+.depts div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:1rem}
+.depts b{font-family:"Avenir Next","Segoe UI",Helvetica,Arial,sans-serif;display:block}
+.cta{margin-top:48px;background:var(--navy);color:var(--navy-ink);border-radius:18px;padding:26px 24px}
+.cta h2{margin:0 0 8px}
+.cta a{color:var(--navy-ink);font-weight:700;text-underline-offset:3px}
+.cta a:focus-visible,a:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.foot{margin-top:28px;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<section class="pass" aria-label="Boarding pass">
+  <div class="pass-top f"><span>Ryanair Graduate Programme 2027</span><span>Finance</span></div>
+  <div class="route f">
+    <div><div class="code">LUX</div><div class="city">Luxembourg, today</div></div>
+    <div class="plane" aria-hidden="true">✈</div>
+    <div><div class="code">DUB</div><div class="city">Dublin, hopefully</div></div>
+  </div>
+  <div class="perf"></div>
+  <div class="fields">
+    <div><small>Passenger</small><b>Joana Martins</b></div>
+    <div><small>Currently</small><b>Junior Auditor, KPMG</b></div>
+    <div><small>Boarding with</small><b>ACCA ambitions</b></div>
+    <div><small>Baggage</small><b>Hand luggage only</b></div>
+  </div>
+  <div class="stamp">Ready for takeoff</div>
+</section>
+
+<h1>For most people, Ryanair is just a flight. For me, it’s the reason I’ve seen so much of Europe.</h1>
+<p class="lead">I’d love to help build the thing that got me there.</p>
+
+<h2>Why this isn’t a generic application</h2>
+<p>During my exchange semester in Rotterdam I was a student on a budget with a long list of places to see. Ryanair made the list possible. I chose long layovers in far-off airports to save a little extra, because every euro saved meant one more city, one more conversation with a stranger, one more step outside my comfort zone.</p>
+<p>Today I live in Luxembourg, far from my family in Portugal, and Ryanair is what keeps going home affordable. Low fares, for me, mean more time with the people I love.</p>
+<div class="quote">I want to understand how a finance team makes that possible, and help keep it possible for the next student with a long list and a small budget.</div>
+
+<h2>Cleared for takeoff: your requirements, my evidence</h2>
+<ul class="checks">
+  <li><div><strong>Relevant degree, finished 2025 or later</strong><span>BSc Economics and International Master’s in Management (Financial Management), Nova SBE, completed Jan. 2026.</span></div></li>
+  <li><div><strong>Right to live and work in Ireland</strong><span>Portuguese citizen, so I can work in Ireland without restrictions.</span></div></li>
+  <li><div><strong>Strong analytical ability</strong><span>Account reconciliations and variance analyses for 5+ international clients under Lux GAAP, IFRS and US GAAP, tracing every difference back to its source document.</span></div></li>
+  <li><div><strong>Pressurised, fast-paced environment</strong><span>Accurate, fully documented work for several clients in parallel under fixed deadlines.</span></div></li>
+  <li><div><strong>Efficiency and continuous improvement</strong><span>Built Excel tools (XLOOKUP, dynamic arrays, pivot tables) to reconcile and validate large data sets faster.</span></div></li>
+  <li><div><strong>Own initiative</strong><span>Extracted and analysed ledger and bank data from clients’ SAP systems, and raised open points early instead of waiting to be asked.</span></div></li>
+  <li><div><strong>Organisational skills</strong><span>Built the budgets for 3 fundraising events at Nova Thirst Project and delivered them within the agreed budget.</span></div></li>
+  <li><div><strong>Interpersonal and communication skills</strong><span>Worked with client finance teams, reported findings to client management, and produced client-ready Word and PowerPoint deliverables. English C1.</span></div></li>
+  <li><div><strong>PC skills</strong><span>Advanced Excel, Word, PowerPoint, Power BI, plus Python and R.</span></div></li>
+  <li><div><strong>ACA / ACCA</strong><span>I already plan to pursue ACCA, and your training contract is exactly the route I want.</span></div></li>
+  <li><div><strong>A sense of humour</strong><span>I make content for fun, and I don’t take myself too seriously. This page has a fake boarding pass, after all.</span></div></li>
+</ul>
+
+<h2>Where I’d like to land first</h2>
+<div class="depts">
+  <div><b>Internal Audit</b>I already document and test controls and report recommendations to management.</div>
+  <div><b>Financial Reporting</b>Daily work under Lux GAAP, IFRS and US GAAP.</div>
+  <div><b>FP&amp;A</b>Market and performance analysis from my time at a Social Investment Fund.</div>
+</div>
+
+<section class="cta">
+  <h2>Let’s talk</h2>
+  <p>I’d be proud to bring my audit background, my curiosity and my layover-hunting instincts to Ryanair.</p>
+  <p><a href="mailto:jjoanarmartins@gmail.com">jjoanarmartins@gmail.com</a><br><a href="http://www.linkedin.com/in/joanaribeiromartins" target="_blank" rel="noopener">linkedin.com/in/joanaribeiromartins</a></p>
+</section>
+<p class="foot">Made by Joana Martins for the Ryanair Graduate Programme 2027. Not affiliated with Ryanair.</p>
+</main>
+</body>
+</html>
